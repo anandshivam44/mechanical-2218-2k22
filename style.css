@@ -1,0 +1,97 @@
+/* .my_nav {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+} */
+
+.my_nav {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  background-color: #ffffff4f !important;
+  backdrop-filter: blur(8px);
+}
+
+.main-header {
+  background-image: url(images/Banner.jpg);
+  background-size: cover;
+  padding-top: 15em;
+  padding-bottom: 2em;
+}
+
+.navbar-brand {
+  color: #fff;
+}
+
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.header-text-holder,
+.subscribe-holder {
+  text-align: center;
+  color: white;
+}
+.my_card h3 {
+  font-size: 1.6em;
+}
+.my_card:hover {
+  box-shadow: 20px 20px 12px rgba(0, 0, 0, 0.3);
+  transition-duration: 0.4s;
+}
+.home-body-content {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.home-body-content .my_card {
+  margin-bottom: 25px;
+  transition-duration: 0.4s;
+}
+.main-footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: antiquewhite;
+}
+.main-footer p {
+  margin: 0px;
+}
+
+.img-fluid {
+  aspect-ratio: 35/45;
+}
+
+.my_card {
+    max-width: 280px;
+}
+
+.my_card h3 {
+  text-align: center;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bi {
+  font-size: 1.45rem;
+}
+
+.btn {
+  background: transparent;
+  backdrop-filter: blur(5px);
+  border: none;
+  color: #fff;
+}
+
+.col-lg-3 {
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 450px) {
+  .row {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .col-sm-8 {
+      margin: 0.7rem 0;
+  }
+}
